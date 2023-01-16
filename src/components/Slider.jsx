@@ -12,8 +12,6 @@ export default function Slider({ news }) {
     autoplay: true,
   };
 
-  console.log(news);
-
   return (
     <Slide {...settings}>
       {news?.map((value) => (
