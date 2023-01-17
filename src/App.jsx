@@ -32,9 +32,9 @@ function App() {
 
       <Slider news={data} />
 
-      {/* <LiveNews /> */}
+      {<LiveNews />}
 
-      <Test value={1000} />
+      {/* <Test value={1000} /> */}
 
       <Body />
     </div>
