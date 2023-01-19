@@ -9,11 +9,11 @@ export default function Right() {
   const { loading, data } = useApi(url);
 
   return (
-    <div className="widget-sidebar">
-      <div className="section-title-wrap blue">
+    <div className="section-title-wrap blue">
+      <div className="widget-sidebar">
         <h2 className="section-title medium">Popular Posts</h2>
         <div className="section-title-separator"></div>
-      </div>{" "}
+      </div>
       <br />
       {/* Popular Posts */}
       {data?.map((value) => (
