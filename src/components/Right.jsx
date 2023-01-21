@@ -11,7 +11,6 @@ export default function Right() {
   return (
     <div className="section-title-wrap blue">
       <div className="widget-sidebar">
-        <p>testing</p>
         <h2 className="section-title medium">Popular Posts</h2>
         <div className="section-title-separator"></div>
       </div>
